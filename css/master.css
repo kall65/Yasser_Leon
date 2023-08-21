@@ -481,6 +481,10 @@ body {
 .contact .contact-content .info i {
   color: #2d4757;
   margin: 15px 10px;
+  cursor: pointer;
+}
+.contact .contact-content .info i:hover {
+  color: var(--main-color);
 }
 @media (max-width: 1000px) {
   .contact .contact-content {
